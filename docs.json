@@ -118,7 +118,8 @@
     "color": {
       "light": "#0F172A",
       "dark": "#0F172A"
-    }
+    },
+    "image": "/images/logo-ezgif.com-crop.png"
   },
   "favicon": "/images/logo-curved.png",
   "logo": "/images/logo.png"
