@@ -2,7 +2,6 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "PolyPulseBets",
-  "css": ["styles.css"],
   "colors": {
     "primary": "#2563EB",
     "light": "#ffffff",
@@ -119,7 +118,7 @@
       "light": "#0F172A",
       "dark": "#0F172A"
     },
-    "image": "/images/logo-ezgif.com-crop.png"
+    "image": "/images/logo2.png"
   },
   "favicon": "/images/logo-curved.png",
   "logo": "/images/logo.png"
