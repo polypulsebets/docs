@@ -1,0 +1,23 @@
+---
+title: "How Are Prices Calculated?"
+description: "The math behind the odds."
+---
+
+# Prices = Probability
+
+The price of a share represents the market's collective belief in the probability of that outcome.
+
+* **Price: $0.75** = **75% Probability**
+* **Price: $0.25** = **25% Probability**
+
+## The AMM (Automated Market Maker)
+We use a **Constant Product Market Maker (CPMM)** to determine the odds.
+* When you buy **YES**, you add USDC to the pool and take YES shares.
+* This makes YES shares scarcer, automatically pushing the price **UP**.
+* Simultaneously, NO shares become more abundant relative to the pool, pushing their price **DOWN**.
+
+This mechanism ensures that the price always reflects the real-time balance of supply and demand.
+
+<Note>
+**V1 Trading Note:** In the current version, **selling shares back to the AMM is disabled**. Once you purchase a position, you must hold it until the market resolves. If you win, your shares redeem for $1.00. If you lose, they expire worthless.
+</Note>

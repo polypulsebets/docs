@@ -1,0 +1,14 @@
+---
+title: "How Are Markets Resolved?"
+description: "The lifecycle of a market resolution."
+---
+
+# Market Resolution
+
+Resolution is the process of determining the winner and allowing payouts.
+
+1.  **Market Close:** Trading stops at the pre-defined **Expiration Date**.
+2.  **Proposal:** The Oracle (UMA) requests a proposal. Anyone can propose the outcome (e.g., "YES won") by bonding collateral.
+3.  **Challenge Period:** There is a 2-hour window where anyone can dispute this proposal if they believe it is wrong.
+4.  **Finalization:** If no dispute occurs, the outcome is finalized on-chain.
+5.  **Payout:** Holders of the winning share (e.g., YES) can redeem them for **$1.00** each. Losing shares (e.g., NO) become worth **$0.00**.

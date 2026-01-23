@@ -1,0 +1,124 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "PolyPulseBets",
+  "colors": {
+    "primary": "#2563EB",
+    "light": "#ffffff",
+    "dark": "#004cf0"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "User Guide",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "index",
+              "user-guide/get-started/How-to-Sign-Up",
+              "user-guide/get-started/How-to-Deposit",
+              "guides/get-started/Making-Your-First-Trade"
+            ]
+          },
+          {
+            "group": "Deposits and Withdrawals",
+            "pages": [
+              "guides/deposits-and-withdrawals/Deposit-by-Transferring-Crypto",
+              "guides/deposits-and-withdrawals/Deposit-from-Exchange",
+              "guides/deposits-and-withdrawals/Buy-with-Card",
+              "user-guide/deposits-and-withdrawals/Deposit-USDC-from-Ethereum",
+              "user-guide/deposits-and-withdrawals/Large-Cross-Chain-Deposits",
+              "guides/deposits-and-withdrawals/How-to-Withdraw"
+            ]
+          },
+          {
+            "group": "Markets",
+            "pages": [
+              "user-guide/markets/How-Are-Markets-Created",
+              "user-guide/markets/How-Are-Prices-Calculated",
+              "user-guide/markets/How-Are-Markets-Resolved",
+              "user-guide/markets/How-Are-Markets-Clarified",
+              "user-guide/markets/How-Are-Markets-Disputed"
+            ]
+          },
+          {
+            "group": "Trading",
+            "pages": [
+              "user-guide/trading/Trading-Fees",
+              "user-guide/trading/Market-Orders-and-Slippage"
+            ]
+          },
+          {
+            "group": "FAQs",
+            "pages": [
+              "user-guide/faqs/Geographic-Restrictions",
+              "user-guide/faqs/Can-I-Sell-Early",
+              "user-guide/faqs/Is-My-Money-Safe",
+              "user-guide/faqs/Is-PolyPulseBets-The-House",
+              "user-guide/faqs/How-Do-I-Contact-Support",
+              "user-guide/faqs/Recover-Missing-Deposit",
+              "user-guide/faqs/Do-You-Have-a-Token",
+              "user-guide/faqs/API-Access",
+              "user-guide/faqs/How-to-Export-Private-Key",
+              "user-guide/faqs/Prediction-Markets-vs-Polling"
+            ]
+          },
+          {
+            "group": "ToS",
+            "pages": [
+              "user-guide/tos/Terms-of-Use"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:hello@polypulsebets.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://dashboard.mintlify.com"
+    }
+  },
+  "contextual": {
+    "options": [
+     "copy",
+     "view",
+     "chatgpt",
+     "claude",
+     "perplexity",
+     "mcp",
+     "cursor",
+     "vscode"
+   ]
+  },
+  "footer": {
+    "socials": {
+      "website": "https://polypulsebets.com",
+      "x": "https://x.com/polypulsebets",
+      "instagram": "https://www.instagram.com/polypulsebets/",
+      "discord": "https://discord.gg/YjZj8u5G",
+      "github": "https://github.com/polypulsebets"
+    }
+  },
+  "description": "PolyPulseBets is the premier decentralized prediction market built on PulseChain. Bet on real-world events—from politics to crypto prices—using USDC, with low fees, instant settlements, and transparent on-chain resolution via the UMA Oracle.",
+  "appearance": {
+    "strict": true,
+    "default": "dark"
+  },
+  "background": {
+    "color": {
+      "light": "#0F172A",
+      "dark": "#0F172A"
+    }
+  },
+  "favicon": "/images/logo-curved.png",
+  "logo": "/images/logo.png"
+}
