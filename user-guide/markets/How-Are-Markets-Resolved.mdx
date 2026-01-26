@@ -11,20 +11,19 @@ When a market reaches its deadline (e.g., "Dec 31, 2025"), trading stops, and th
   <Step title="Expiration">
     The deadline passes. No new positions can be opened. The market status changes to **"Awaiting Assertion"**.
   </Step>
-
   <Step title="Assertion">
     An Oracle (currently a protocol admin or validator) reviews the real-world outcome and "Asserts" the winner (YES or NO).
   </Step>
-
   <Step title="Challenge Period">
-    A timer starts (typically 2-24 hours). During this window, the assertion is **publicly visible** but not final.
-    * If the assertion is correct, nothing happens.
-    * If the assertion is wrong (e.g., Oracle said "YES" but Trump actually lost), users can **Dispute** it.
-  </Step>
+    A timer starts (typically 2 hours). During this window, the assertion is **publicly visible** but not final.
 
+    - If the assertion is correct, nothing happens.
+    - If the assertion is wrong (e.g., Oracle said "YES" but Trump actually lost), users can **Dispute** it.
+  </Step>
   <Step title="Settlement">
     Once the timer expires without a dispute, the market is **Resolved**.
-    * **Winners:** YES shares become redeemable for **$1.00**.
-    * **Losers:** NO shares become worth **$0.00**.
+
+    - **Winners:** YES shares become redeemable for **\$1.00**.
+    - **Losers:** NO shares become worth **\$0.00**.
   </Step>
 </Steps>

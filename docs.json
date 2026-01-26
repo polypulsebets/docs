@@ -45,8 +45,7 @@
           {
             "group": "Trading",
             "pages": [
-              "user-guide/trading/Trading-Fees",
-              "user-guide/trading/Market-Orders-and-Slippage"
+              "user-guide/trading/Trading-Fees"
             ]
           },
           {
