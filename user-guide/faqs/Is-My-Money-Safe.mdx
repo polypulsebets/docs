@@ -1,16 +1,28 @@
 ---
 title: "Is My Money Safe?"
-description: "Security and non-custodial trading."
+description: "Understanding custody and smart contract security."
 ---
 
-# Security Model
+# Security & Custody
 
-PolyPulseBets is a **Non-Custodial** platform.
+PolyPulseBets is a **Non-Custodial** protocol. This means we (the developers) never hold your funds.
 
-1. **You Hold the Keys:** We never take possession of your funds. Your USDC stays in your wallet until you approve a trade.
-2. **Smart Contracts:** When you trade, funds are sent to a smart contract on PulseChain. This contract is immutable and governs the payout. We cannot "steal" the funds from the contract.
-3. **Oracle Resolution:** Payouts are determined by the Optimistic Oracle, not by the PolyPulseBets team directly. This prevents manipulation.
+## Where is my money?
+* **In Your Wallet:** When you are not in a trade, your USDC and PLS sit in your personal crypto wallet. We cannot touch them.
+* **In the Contract:** When you place a bet, your funds are sent to the Market Smart Contract. This contract is programmed to hold the funds securely until the market resolves.
 
-<Note>
-  **Smart Contract Risk:** As with all DeFi applications, there is always a non-zero risk of smart contract bugs. Never trade money you cannot afford to lose.
-</Note>
+## Is the Protocol Solvent?
+**Yes.** PolyPulseBets is fully collateralized.
+* Every single "YES" share + "NO" share pair is backed by exactly **$1.00 USDC** in the contract vault.
+* It is mathematically impossible for the "House" to run out of money to pay winners, because the money to pay you is locked in the contract the moment the shares are minted.
+
+## Risks
+While the math is secure, all DeFi protocols carry risks:
+* **Smart Contract Risk:** Unforeseen bugs in the code could potentially be exploited.
+* **Oracle Risk:** If the Oracle (Judge) is compromised or malicious, they could resolve a market incorrectly. (See [Dispute Mechanism](/markets/how-are-markets-disputed) for how we mitigate this).
+
+<Warning>
+  **Experimental Software**
+  
+  PolyPulseBets is experimental software running on PulseChain. Never bet more than you can afford to lose.
+</Warning>
