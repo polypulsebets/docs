@@ -5,16 +5,28 @@ description: "Best practices for moving significant capital."
 
 # Large Deposits
 
-For users depositing large amounts ($10k+), standard bridges can sometimes be slow or liquidity-constrained. We recommend using **Cross-Chain Aggregators** to minimize slippage and ensure the best rates.
+For users depositing large amounts (**$10k+**), standard bridges can sometimes be slow or liquidity-constrained. We recommend using **Cross-Chain Aggregators** to minimize slippage and ensure the best rates.
 
 ## Recommended Aggregators
 
 These platforms scan multiple bridges and DEXs to find the most efficient route for your swap.
 
-* **[PortalX](https://portalxswap.io)**: Excellent for moving from Bitcoin, Solana, or Base directly to PulseChain.
-* **[SparkSwap](https://sparkswap.xyz)**: Deep liquidity for converting large amounts of BSC (BNB) or Ethereum assets into PulseChain stablecoins.
-* **[ChangeNOW](https://changenow.io)**: Non-custodial swapping service that supports large volume transfers to PulseChain (PLS) without connecting a wallet.
+* **[PortalX](https://portalxswap.io)**
+  * Best for moving assets from **Bitcoin**, **Solana**, or **Base** directly to PulseChain.
+  * Aggregates liquidity from multiple sources to reduce price impact.
+
+* **[SparkSwap](https://sparkswap.xyz)**
+  * Deep liquidity for converting large amounts of **BSC (BNB)** or **Ethereum** assets into PulseChain stablecoins.
+  * Often provides faster bridging times for specific pairs.
+
+* **[ChangeNOW](https://changenow.io)**
+  * A non-custodial swapping service that supports large volume transfers to PulseChain (PLS) without needing to connect a wallet.
+  * Ideal for users who prefer a simple "send-to-address" interface.
 
 <Tip>
-**Slippage Warning:** When moving large amounts, always check the "Price Impact" or "Minimum Received" before confirming. Splitting a very large transaction into two smaller ones can sometimes save on fees.
+  **Slippage Warning**
+  
+  When moving large amounts, always check the **"Price Impact"** or **"Minimum Received"** value before confirming. 
+  
+  *Strategy:* If the price impact is high (>1%), consider splitting a very large transaction into two or three smaller ones to save on fees and get a better average rate.
 </Tip>

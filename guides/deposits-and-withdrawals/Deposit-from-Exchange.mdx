@@ -7,21 +7,28 @@ description: "How to move funds from Coinbase, Binance, or Kraken."
 
 Most major exchanges (Coinbase, Binance, Kraken) do **not** yet natively support the PulseChain network. To get funds from an exchange to PolyPulseBets, you typically need to withdraw to Ethereum and then bridge.
 
-## Step 1: Buy USDC or ETH
-Purchase **USDC** (USD Coin) or **ETH** (Ethereum) on your preferred exchange.
+<Steps>
+  <Step title="Buy USDC or ETH">
+    Purchase **USDC** (USD Coin) or **ETH** (Ethereum) on your preferred exchange (Coinbase, Binance, Kraken, etc.).
+  </Step>
 
-## Step 2: Withdraw to Your Wallet
-Withdraw the funds to your self-custodial wallet address (e.g., MetaMask or Rabby).
-* **Network:** Select **Ethereum (ERC-20)**.
-* **Address:** Paste your wallet address.
+  <Step title="Withdraw to Wallet">
+    Withdraw the funds to your self-custodial wallet address (e.g., MetaMask or Rabby).
+    * **Network:** Select **Ethereum (ERC-20)**.
+    * **Address:** Paste your public wallet address.
+  </Step>
+
+  <Step title="Bridge to PulseChain">
+    Once the funds are in your wallet on the Ethereum network:
+    1.  Go to the **[Official PulseBridge](https://bridge.pulsechain.com/)**.
+    2.  Connect your wallet.
+    3.  Select your asset (USDC or ETH) and bridge it from Ethereum to **PulseChain**.
+    4.  Switch your wallet network to PulseChain to see your funds arrive.
+  </Step>
+</Steps>
 
 <Warning>
-**Do NOT** withdraw directly to PulseChain unless the exchange explicitly lists "PulseChain" as a network option. Doing so on an unsupported network may lose your funds.
+  **Critical Warning**
+  
+  **Do NOT** withdraw directly to PulseChain unless the exchange explicitly lists "PulseChain" as a network option. Doing so on an unsupported network (like BSC or Polygon) may result in the permanent loss of your funds.
 </Warning>
-
-## Step 3: Bridge to PulseChain
-Once the funds are in your wallet on the Ethereum network:
-1.  Go to the [Official PulseBridge](https://bridge.pulsechain.com/).
-2.  Connect your wallet.
-3.  Bridge your **USDC** or **ETH** from Ethereum to PulseChain.
-4.  Switch your wallet network to PulseChain to see your funds arrive.
