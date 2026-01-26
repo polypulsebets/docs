@@ -52,15 +52,13 @@
             "group": "FAQs",
             "pages": [
               "user-guide/faqs/Geographic-Restrictions",
-              "user-guide/faqs/Can-I-Sell-Early",
-              "user-guide/faqs/Is-My-Money-Safe",
-              "user-guide/faqs/Is-PolyPulseBets-The-House",
-              "user-guide/faqs/How-Do-I-Contact-Support",
               "user-guide/faqs/Recover-Missing-Deposit",
               "user-guide/faqs/Do-You-Have-a-Token",
-              "user-guide/faqs/API-Access",
               "user-guide/faqs/How-to-Export-Private-Key",
-              "user-guide/faqs/Prediction-Markets-vs-Polling"
+              "user-guide/faqs/Prediction-Markets-vs-Polling",
+              "user-guide/faqs/How-Do-I-Contact-Support",
+              "user-guide/faqs/Can-I-Sell-Early",
+              "user-guide/faqs/Is-My-Money-Safe"
             ]
           },
           {
