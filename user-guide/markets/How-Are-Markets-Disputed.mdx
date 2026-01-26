@@ -1,14 +1,27 @@
 ---
 title: "How Are Markets Disputed?"
-description: "What happens if the result is wrong?"
+description: "The safety net against incorrect resolutions."
 ---
 
-# Disputes
+# The Dispute Mechanism
 
-If a bad actor tries to resolve a market incorrectly (e.g., saying "YES" won when "NO" actually won), the **Dispute Mechanism** protects users.
+PolyPulseBets is designed to be trust-minimized. Even though an Oracle asserts the outcome, **you** have the power to challenge it if they lie or make a mistake.
 
-## The Dispute Process (UMA)
-1.  **Challenge:** Any user can challenge an incorrect resolution by posting a **Dispute Bond** (in PLS or UMA tokens).
-2.  **Voting:** The dispute is sent to **UMA Tokenholders** (the decentralized Oracle). They vote on what the correct outcome actually was.
-3.  **Ruling:** The outcome with the majority of votes becomes the final truth.
-4.  **Reward:** The person who disputed correctly **earns the bond** posted by the bad actor. This economic incentive ensures markets remain honest without centralized control.
+## When to Dispute
+You should only initiate a dispute if the **Asserted Outcome** is demonstrably false according to the **Resolution Rules**.
+
+## How to Dispute
+If you see an incorrect assertion during the **Challenge Period**:
+
+1.  **Go to the Market Page:** You will see a "Dispute" status.
+2.  **Post Bond:** You must stake a specific amount of tokens (e.g., **50 USDC**) as a "Dispute Bond".
+3.  **Provide Evidence:** You must submit a link (URL) proving why the assertion is wrong.
+4.  **Confirm:** Once confirmed, the resolution timer **stops**.
+
+## What happens next?
+The market enters a **"Disputed"** state.
+1.  The case is escalated to a higher-tier arbitration mechanism (currently a multi-sig council of trusted community members; in V3, the UMA DVM).
+2.  Arbitrators review the evidence and the Rules.
+3.  **Final Ruling:**
+    * **If you were right:** You get your Bond back **plus a reward**, and the market is corrected.
+    * **If you were wrong:** You lose your Bond (it is burned or paid to the Oracle), and the original result stands.

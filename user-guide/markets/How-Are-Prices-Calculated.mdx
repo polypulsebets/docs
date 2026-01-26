@@ -1,23 +1,23 @@
 ---
 title: "How Are Prices Calculated?"
-description: "The math behind the odds."
+description: "The math behind the market odds."
 ---
 
-# Prices = Probability
+# Automated Market Maker (AMM)
 
-The price of a share represents the market's collective belief in the probability of that outcome.
+PolyPulseBets does not use a traditional "order book" where you have to wait for someone to match your bet. Instead, we use an **Automated Market Maker (AMM)**.
 
-* **Price: $0.75** = **75% Probability**
-* **Price: $0.25** = **25% Probability**
+## Supply and Demand
+The price of a share represents the **probability** of that outcome occurring, ranging from **$0.00** (0%) to **$1.00** (100%).
 
-## The AMM (Automated Market Maker)
-We use a **Constant Product Market Maker (CPMM)** to determine the odds.
-* When you buy **YES**, you add USDC to the pool and take YES shares.
-* This makes YES shares scarcer, automatically pushing the price **UP**.
-* Simultaneously, NO shares become more abundant relative to the pool, pushing their price **DOWN**.
+* **Buying YES:** When you buy "YES" shares, you are adding USDC to the "YES" pool. This increases the price of YES and decreases the price of NO.
+* **Selling YES:** When you sell shares back to the pool, the price of YES goes down.
 
-This mechanism ensures that the price always reflects the real-time balance of supply and demand.
+## The Math
+The protocol ensures that the price of **YES + NO** always equals **$1.00**.
+If *YES* is trading at **$0.60**, *NO* will automatically trade at **$0.40**.
 
-<Note>
-**V1 Trading Note:** In the current version, **selling shares back to the AMM is disabled**. Once you purchase a position, you must hold it until the market resolves. If you win, your shares redeem for $1.00. If you lose, they expire worthless.
-</Note>
+## Slippage
+Because prices move based on how much is bought or sold:
+* **Small Trades:** Have little impact on the price.
+* **Large Trades:** Can move the price significantly (slippage). The UI will always show you your "Average Entry Price" before you confirm a trade.

@@ -1,15 +1,24 @@
 ---
 title: "How Are Markets Clarified?"
-description: "Handling ambiguity and edge cases."
+description: "Understanding Resolution Rules and Edge Cases."
 ---
 
-# Market Clarifications
+# Resolution Rules
 
-Sometimes, real-world events are messy. A "Clarification" is an official update to the market rules to resolve ambiguity **before** the market closes.
+Real life is messy. Sometimes events don't happen exactly as predicted. To prevent ambiguity, every market on PolyPulseBets comes with a **Rules** section.
 
-## When does this happen?
-* **Example:** A market asks *"Who will win the election?"* but one candidate dies before the election.
-* **Action:** A clarification might be issued stating: *"If a candidate withdraws or passes away, bets on them will resolve to NO."*
+## Where to find Rules
+On every Market Page, scroll down to the **"📜 Resolution Rules"** box located just below the trading chart.
 
-## The Rule of "Spirit of the Market"
-If a specific edge case is not covered in the rules, the market resolves according to the **"Spirit of the Market"**—what a reasonable person would interpret the question to mean at the time of creation. We strive to avoid "gotcha" resolutions based on technicalities.
+## Common Clauses
+These rules define exactly how the Oracle will interpret edge cases.
+
+* **Date Extensions:** *"If the game is postponed but played within 48 hours, the market remains valid. Otherwise, it resolves to 50/50."*
+* **Source of Truth:** *"Resolution will be determined by the closing price on Binance.com at 12:00 UTC."*
+* **Specific Definitions:** *"For the purpose of this market, 'Elon Musk stepping down' includes appointing a new CEO, even if he remains on the board."*
+
+<Warning>
+  **Read Before Trading**
+  
+  Always check the Rules section. The smart contract resolves based on these written rules, not necessarily "common sense" or Twitter rumors.
+</Warning>

@@ -1,27 +1,28 @@
 ---
 title: "How Are Markets Created?"
-description: "Understanding the market generation process."
+description: "Understanding the market creation process."
 ---
 
-# Market Creation
+# Market Creation Process
 
-Markets on PolyPulseBets are designed to be unambiguous and resolvable.
+To ensure high-quality questions and unambiguous resolution criteria, PolyPulseBets currently operates on a **curated model** with community input.
 
-## The Creation Process
+## 1. Suggesting a Market
+Any user with a connected wallet can suggest a new market topic.
+1.  Navigate to the **Suggest** tab (or button in the navbar).
+2.  Fill out the suggestion form with your question (e.g., *"Will Bitcoin hit $100k in 2025?"*).
+3.  Submit your idea.
 
-1.  **Drafting:** A market is proposed with a specific question (e.g., *"Will Bitcoin trade above $100k on Jan 1st?"*).
-2.  **Rules & Source:** Every market must have a defined **Resolution Source** (e.g., Binance API, AP News) and explicit rules for edge cases.
-3.  **Funding:** The initial liquidity is seeded into the Automated Market Maker (AMM) pool to allow trading to begin immediately.
-4.  **Live:** Once deployed to PulseChain, the market is open for trading until the **Resolution Date**.
+## 2. Review & Approval
+Our team of market curators reviews suggestions daily. We look for:
+* **Clarity:** Can the outcome be proven true or false definitively?
+* **Interest:** Is there sufficient trading volume and public interest?
+* **Resolution Source:** Is there a reliable public source (e.g., Binance price feed, AP News, Official Government stats) to verify the outcome?
 
-## Can I create a market?
+## 3. Deployment
+Once approved, an Administrator deploys the market smart contract.
+* **Initial Liquidity:** The protocol often seeds the initial liquidity (e.g., $1,000) to allow trading to start immediately.
+* **Rules Set:** Specific "Resolution Rules" are attached to the market to cover edge cases.
 
-Currently, market creation is **curated** by the PolyPulseBets team to ensure quality, safety, and unambiguous resolution criteria. We do not support permissionless creation to prevent spam and confusing markets.
-
-### Suggest a Market
-We highly encourage community input! If you have a great idea for a market, you can submit it directly:
-
-1.  **Use the Button:** Click the **"Suggest"** button located on the main website interface.
-2.  **Email Us:** Send your idea and a proposed resolution source to **hello@polypulsebets.com**.
-
-If the market is viable, the team will deploy it and provide the initial liquidity.
+## Decentralization Roadmap
+In future versions (V5), we plan to introduce **Permissionless Creation**, allowing users to deploy their own markets by burning a PLS fee and providing their own initial liquidity.
