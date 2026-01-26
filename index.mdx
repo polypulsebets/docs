@@ -20,7 +20,7 @@ On PolyPulseBets, you can **buy shares** representing future event outcomes (i.e
 Unlike sportsbooks, you are not betting against “the house” – the counterparty to each trade is another PolyPulseBets user. As such, there is no “house” to ban you for winning too much.
 
 <Note>
-**Note on Trading:** In the current V1 version, positions are **locked until the event resolves**. The ability to sell shares before the deadline to lock in profits or cut losses is a planned feature for **V2**.
+**New in V2:** You can now **Sell** your positions before the event resolves! Use the "Sell" tab on any market page to lock in profits or cut losses early.
 </Note>
 
 ## Understanding Prices
@@ -37,6 +37,13 @@ In the example above, if you believe the chance of PLS hitting that price is **h
 
 * If it happens, each “Yes” share becomes worth **$1.00**, resulting in an **82-cent profit per share**.
 * Conversely, any trader who owned “No” shares would see their investment become worthless once the market resolves.
+
+## Oracle & Resolution
+
+To ensure markets are resolved fairly and securely, PolyPulseBets currently utilizes its own **Mock Oracle**. This system allows for the reliable assertion and dispute of market outcomes during our initial phase.
+
+**Future Roadmap:**
+We are committed to full decentralization. As soon as a robust, decentralized oracle solution (such as UMA or Chainlink) becomes available and battle-tested on **PulseChain**, we will migrate the protocol to use that system. This transition will further enhance the trustlessness and immutability of our markets.
 
 ## How accurate are the odds?
 
