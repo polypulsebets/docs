@@ -15,56 +15,28 @@
           {
             "group": "Get Started",
             "pages": [
-              "index",
-              "user-guide/get-started/How-to-Sign-Up",
-              "user-guide/get-started/How-to-Deposit",
-              "guides/get-started/Making-Your-First-Trade"
+              "index"
             ]
           },
           {
             "group": "Deposits and Withdrawals",
-            "pages": [
-              "guides/deposits-and-withdrawals/Deposit-by-Transferring-Crypto",
-              "guides/deposits-and-withdrawals/Deposit-from-Exchange",
-              "guides/deposits-and-withdrawals/Buy-with-Card",
-              "user-guide/deposits-and-withdrawals/Deposit-USDC-from-Ethereum",
-              "user-guide/deposits-and-withdrawals/Large-Cross-Chain-Deposits",
-              "guides/deposits-and-withdrawals/How-to-Withdraw"
-            ]
+            "pages": []
           },
           {
             "group": "Markets",
-            "pages": [
-              "user-guide/markets/How-Are-Markets-Created",
-              "user-guide/markets/How-Are-Prices-Calculated",
-              "user-guide/markets/How-Are-Markets-Resolved",
-              "user-guide/markets/How-Are-Markets-Clarified",
-              "user-guide/markets/How-Are-Markets-Disputed"
-            ]
+            "pages": []
           },
           {
             "group": "Trading",
-            "pages": [
-              "user-guide/trading/Trading-Fees"
-            ]
+            "pages": []
           },
           {
             "group": "FAQs",
-            "pages": [
-              "user-guide/faqs/Geographic-Restrictions",
-              "user-guide/faqs/Recover-Missing-Deposit",
-              "user-guide/faqs/How-to-Export-Private-Key",
-              "user-guide/faqs/Prediction-Markets-vs-Polling",
-              "user-guide/faqs/How-Do-I-Contact-Support",
-              "user-guide/faqs/Can-I-Sell-Early",
-              "user-guide/faqs/Is-My-Money-Safe"
-            ]
+            "pages": []
           },
           {
             "group": "ToS",
-            "pages": [
-              "user-guide/tos/Terms-of-Use"
-            ]
+            "pages": []
           }
         ]
       }
